@@ -1,0 +1,63 @@
+*{
+  margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+    
+}
+.navitems{
+    text-decoration: none;
+    color: white;
+    /* justify-content: space-evenly; */
+}
+Navbar{
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    position: fixed;
+}
+.homeback{
+background-image: url("./homeback.webp");
+min-height: 100vh;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ position: relative;
+display: flex;
+justify-content: center;
+align-items: center; 
+color: #212121;
+}
+.texthome{
+    position: absolute;
+    top:8rem;
+    margin-left: 10%;
+    right:50%;
+}
+.helpback{
+    background-image: url("./helpback.avif");
+min-height: 100vh;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ position: relative;
+display: flex;
+justify-content: center;
+align-items: center; 
+color: #212121;
+}
+.texthelp{
+    position: absolute;
+    top:8rem;
+    margin-left: 10%;
+    margin-right: 50%;
+
+    /* left:3rem */
+}
+.countrylist{
+    display: flex;
+   
+    align-content: center;
+   
+   
+}
+.countrywhole{
+    background-color: #bebebe;
+}
